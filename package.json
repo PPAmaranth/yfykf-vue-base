@@ -1,0 +1,30 @@
+{
+  "name": "yfykf-vue-base",
+  "version": "1.0.0",
+  "description": "vue-base",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PPAmaranth/yfykf-vue-base.git"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "PP",
+  "license": "MIT",
+  "main":"dist/yfykf-vue-base.cjs.js",
+  "module":"dist/yfykf-vue-base.esm.js",
+  "browser":"dist/yfykf-vue-base.umd.js",
+  "files":["src","dist/*.js"],
+  "bugs": {
+    "url": "https://github.com/PPAmaranth/yfykf-vue-base/issues"
+  },
+  "homepage": "https://github.com/PPAmaranth/yfykf-vue-base#readme",
+  "devDependencies": {
+    "rollup": "^2.77.2",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
